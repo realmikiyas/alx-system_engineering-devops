@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#This script display "Best School" 10times usig until loop.
+
+i=0
+until (( i == 10 ));
+do
+	echo "Best School";
+	(( i++ ));
+done
