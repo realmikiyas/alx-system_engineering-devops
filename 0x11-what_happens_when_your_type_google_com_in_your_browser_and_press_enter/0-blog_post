@@ -1,0 +1,13 @@
+When you point your browser at a URL like https://google.com, your browser has to figure out which server on the Internet is hosting the site. It does this by looking up the domain, google.com, to find the address.
+Each device on the Internet — servers, cell phones, your smart TVs — all have a unique address called an IP address. An IP address contains four numbered parts.
+
+You type https://google.com in your browser and press Enter
+Let’s break down the parts of this URL you typed in to get here.
+
+https://google.com
+
+Scheme
+https:// is the scheme. HTTPS stands for Hypertext Transfer Protocol Secure. This scheme tells the browser to make a connection to the server using Transport Layer Security, or TLS. TLS is an encryption protocol to secure communications over the Internet. With HTTPS, the data exchanged between your browser and the server, like passwords or credit card info, is encrypted. You may have also seen ftp://, mailto://, or file://. These are other protocols that browsers know how to handle.
+
+Domain
+google.com is the domain name of the site. It is the memorable address and points to a specific server’s IP address. If you look at the Lightsail DNS zone below, you can see a DNS A record pointing to the Lightsail instance, jennapedersondev-static-ip, which represents the static IP address of the Lightsail instance.
