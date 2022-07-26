@@ -1,0 +1,1 @@
+# This blog explains about what happens when we type google.com in our web browser
