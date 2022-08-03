@@ -51,8 +51,8 @@ frontend www-https
 backend web-backend
         balance roundrobin
         redirect scheme https code 301 if !{ ssl_fc }
-        server 938-web-01 35.231.33.237:80 check
-        server 938-web-02 34.74.155.163:80 check
+       2008-web-01 35.173.50.52:80 check
+       2008-web-02 3.236.171.2:80 check
 =======
 global
         log /dev/log    local0
@@ -106,6 +106,6 @@ frontend www-https
 backend web-backend
         balance roundrobin
         redirect scheme https code 301 if !{ ssl_fc }
-        server 938-web-01 35.231.33.237:80 check
-        server 938-web-02 34.74.155.163:80 check
+        2008-web-01 35.173.50.52:80 check
+        2008-web-02 3.236.171.2:80 check
 >>>>>>> abff5d18ffaea8d644ddef0abd5fb1dcdee207e5
